@@ -45,10 +45,12 @@ const rules: KarabinerRules[] = [
   ...createHyperSubLayers({
     // q = "For ease of use
     q: {
-      c: app("Google Chrome"),
+      g: app("Google Chrome"),
       v: app("Visual Studio Code"),
       d: app("Discord"),
       s: app("Slack"),
+      m: app("Mail"),
+      c: app("Calendar"),
       n: app("Notion"),
       t: app("Trello"),
       z: app("zoom.us"),
