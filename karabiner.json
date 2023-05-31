@@ -220,6 +220,30 @@
               {
                 "to": [
                   {
+                    "shell_command": "open -a 'IntelliJ IDEA.app'"
+                  }
+                ],
+                "description": "Open -a 'IntelliJ IDEA.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "j",
+                  "modifiers": {
+                    "mandatory": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_q",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
                     "shell_command": "open -a 'Calendar.app'"
                   }
                 ],
@@ -340,13 +364,13 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Figma.app'"
+                    "shell_command": "open -a 'Linear.app'"
                   }
                 ],
-                "description": "Open -a 'Figma.app'",
+                "description": "Open -a 'Linear.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "f",
+                  "key_code": "l",
                   "modifiers": {
                     "mandatory": [
                       "any"
@@ -364,13 +388,61 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Linear.app'"
+                    "shell_command": "open -a 'Microsoft Excel.app'"
                   }
                 ],
-                "description": "Open -a 'Linear.app'",
+                "description": "Open -a 'Microsoft Excel.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "l",
+                  "key_code": "x",
+                  "modifiers": {
+                    "mandatory": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_q",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'Microsoft Word.app'"
+                  }
+                ],
+                "description": "Open -a 'Microsoft Word.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "w",
+                  "modifiers": {
+                    "mandatory": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_q",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'Foxit PDF Reader.app'"
+                  }
+                ],
+                "description": "Open -a 'Foxit PDF Reader.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "f",
                   "modifiers": {
                     "mandatory": [
                       "any"

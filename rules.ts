@@ -50,13 +50,17 @@ const rules: KarabinerRules[] = [
       d: app("Discord"),
       s: app("Slack"),
       m: app("Mail"),
+      j: app("IntelliJ IDEA"),
       c: app("Calendar"),
       n: app("Notion"),
       t: app("Trello"),
       z: app("zoom.us"),
       k: app("Kitty"),
-      f: app("Figma"),
+      // f: app("Figma"),
       l: app("Linear"),
+      x: app("Microsoft Excel"),
+      w: app("Microsoft Word"),
+      f: app("Foxit PDF Reader"),
     },
 
     // v = "moVe" which isn't "m" because we want it to be on the left hand
