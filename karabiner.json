@@ -100,10 +100,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Google Chrome.app'"
+                    "shell_command": "open -a 'Arc.app'"
                   }
                 ],
-                "description": "Open -a 'Google Chrome.app'",
+                "description": "Open -a 'Arc.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "g",
@@ -364,34 +364,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Linear.app'"
+                    "shell_command": "open -a 'wpsoffice.app'"
                   }
                 ],
-                "description": "Open -a 'Linear.app'",
-                "type": "basic",
-                "from": {
-                  "key_code": "l",
-                  "modifiers": {
-                    "mandatory": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_q",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open -a 'Microsoft Excel.app'"
-                  }
-                ],
-                "description": "Open -a 'Microsoft Excel.app'",
+                "description": "Open -a 'wpsoffice.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "x",

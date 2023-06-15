@@ -45,7 +45,7 @@ const rules: KarabinerRules[] = [
   ...createHyperSubLayers({
     // q = "For ease of use
     q: {
-      g: app("Google Chrome"),
+      g: app("Arc"),
       v: app("Visual Studio Code"),
       d: app("Discord"),
       s: app("Slack"),
@@ -57,9 +57,9 @@ const rules: KarabinerRules[] = [
       z: app("zoom.us"),
       k: app("Kitty"),
       // f: app("Figma"),
-      l: app("Linear"),
-      x: app("Microsoft Excel"),
-      w: app("Microsoft Word"),
+      // l: app("Linear"),
+      x: app("wpsoffice"),
+      w: app("Microsoft Word"), // not working for some reason
       f: app("Foxit PDF Reader"),
     },
 
