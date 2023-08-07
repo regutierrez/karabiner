@@ -50,7 +50,7 @@ const rules: KarabinerRules[] = [
       d: app("Discord"),
       s: app("Slack"),
       m: app("Mail"),
-      j: app("IntelliJ IDEA"),
+      j: app("Pycharm Community Edition"),
       c: app("Calendar"),
       n: app("Notion"),
       t: app("Trello"),
