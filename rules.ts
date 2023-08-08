@@ -56,11 +56,12 @@ const rules: KarabinerRules[] = [
       t: app("Trello"),
       z: app("zoom.us"),
       k: app("Kitty"),
-      // f: app("Figma"),
+      0: app("Obsidian"),
+      f: app("Finder"),
       // l: app("Linear"),
       x: app("wpsoffice"),
       w: app("Microsoft Word"), // not working for some reason
-      f: app("Foxit PDF Reader"),
+      r: app("Foxit PDF Reader"),
     },
 
     // v = "moVe" which isn't "m" because we want it to be on the left hand
