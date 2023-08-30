@@ -148,6 +148,54 @@
               {
                 "to": [
                   {
+                    "shell_command": "open -a 'Visual Studio Code.app'"
+                  }
+                ],
+                "description": "Open -a 'Visual Studio Code.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "v",
+                  "modifiers": {
+                    "mandatory": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_q",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'Discord.app'"
+                  }
+                ],
+                "description": "Open -a 'Discord.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "d",
+                  "modifiers": {
+                    "mandatory": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_q",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
                     "shell_command": "open -a 'Slack.app'"
                   }
                 ],
@@ -244,10 +292,82 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Alacritty.app'"
+                    "shell_command": "open -a 'Notion.app'"
                   }
                 ],
-                "description": "Open -a 'Alacritty.app'",
+                "description": "Open -a 'Notion.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "n",
+                  "modifiers": {
+                    "mandatory": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_q",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'Trello.app'"
+                  }
+                ],
+                "description": "Open -a 'Trello.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "t",
+                  "modifiers": {
+                    "mandatory": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_q",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'zoom.us.app'"
+                  }
+                ],
+                "description": "Open -a 'zoom.us.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "z",
+                  "modifiers": {
+                    "mandatory": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_q",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'Kitty.app'"
+                  }
+                ],
+                "description": "Open -a 'Kitty.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "k",
@@ -268,10 +388,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'marta.app'"
+                    "shell_command": "open -a 'Finder.app'"
                   }
                 ],
-                "description": "Open -a 'marta.app'",
+                "description": "Open -a 'Finder.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "f",
@@ -299,6 +419,30 @@
                 "type": "basic",
                 "from": {
                   "key_code": "x",
+                  "modifiers": {
+                    "mandatory": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_q",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'Microsoft Word.app'"
+                  }
+                ],
+                "description": "Open -a 'Microsoft Word.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "w",
                   "modifiers": {
                     "mandatory": [
                       "any"

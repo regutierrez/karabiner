@@ -46,21 +46,21 @@ const rules: KarabinerRules[] = [
     // q = "For ease of use
     q: {
       g: app("Arc"),
-      v: app("Visual Studio Code"),
-      d: app("Discord"),
+      // v: app("Visual Studio Code"),
+      // d: app("Discord"),
       s: app("Slack"),
       m: app("Mail"),
       j: app("Pycharm Community Edition"),
       c: app("Calendar"),
-      n: app("Notion"),
-      t: app("Trello"),
-      z: app("zoom.us"),
-      k: app("Kitty"),
-      0: app("Obsidian"),
-      f: app("Finder"),
+      // n: app("Notion"),
+      // t: app("Trello"),
+      // z: app("zoom.us"),
+      k: app("Alacritty"),
+      0: app("Obsidian"), // letter o not working
+      f: app("marta"),
       // l: app("Linear"),
       x: app("wpsoffice"),
-      w: app("Microsoft Word"), // not working for some reason
+      // w: app("Shottr"), 
       r: app("Foxit PDF Reader"),
     },
 
