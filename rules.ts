@@ -46,11 +46,11 @@ const rules: KarabinerRules[] = [
     // q = "For ease of use
     q: {
       g: app("Arc"),
-      // v: app("Visual Studio Code"),
+      v: app("Visual Studio Code"),
       // d: app("Discord"),
       s: app("Slack"),
       m: app("Mail"),
-      j: app("Pycharm Community Edition"),
+      // j: app("Pycharm Community Edition"),
       c: app("Calendar"),
       // n: app("Notion"),
       // t: app("Trello"),
@@ -62,45 +62,6 @@ const rules: KarabinerRules[] = [
       x: app("wpsoffice"),
       // w: app("Shottr"), 
       r: app("Foxit PDF Reader"),
-    },
-
-    // v = "moVe" which isn't "m" because we want it to be on the left hand
-    // so that hjkl work like they do in vim
-    v: {
-      h: {
-        to: [{ key_code: "left_arrow" }],
-      },
-      j: {
-        to: [{ key_code: "down_arrow" }],
-      },
-      k: {
-        to: [{ key_code: "up_arrow" }],
-      },
-      l: {
-        to: [{ key_code: "right_arrow" }],
-      },
-      d: {
-        to: [{ key_code: "d", modifiers: ["right_shift", "right_command"] }],
-      },
-      u: {
-        to: [{ key_code: "page_down" }],
-      },
-      i: {
-        to: [{ key_code: "page_up" }],
-      },
-    },
-
-    // c = Musi*c* which isn't "m" because we want it to be on the left hand
-    c: {
-      p: {
-        to: [{ key_code: "play_or_pause" }],
-      },
-      n: {
-        to: [{ key_code: "fastforward" }],
-      },
-      b: {
-        to: [{ key_code: "rewind" }],
-      },
     },
   }),
 ];
