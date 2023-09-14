@@ -57,7 +57,7 @@ const rules: KarabinerRules[] = [
       // z: app("zoom.us"),
       k: app("Kitty"),
       0: app("Obsidian"), // letter o not working
-      f: app("marta"),
+      f: app("Finder"),
       // l: app("Linear"),
       x: app("wpsoffice"),
       // w: app("Shottr"), 
