@@ -263,7 +263,7 @@
                 "description": "Open -a 'Finder.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "f",
+                  "key_code": "e",
                   "modifiers": {
                     "mandatory": [
                       "any"
@@ -281,10 +281,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'wpsoffice.app'"
+                    "shell_command": "open -a 'Microsoft Excel.app'"
                   }
                 ],
-                "description": "Open -a 'wpsoffice.app'",
+                "description": "Open -a 'Microsoft Excel.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "x",
@@ -309,6 +309,30 @@
                   }
                 ],
                 "description": "Open -a 'Foxit PDF Reader.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "f",
+                  "modifiers": {
+                    "mandatory": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_q",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'Reminders.app'"
+                  }
+                ],
+                "description": "Open -a 'Reminders.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "r",

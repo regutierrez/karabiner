@@ -57,11 +57,12 @@ const rules: KarabinerRules[] = [
       // z: app("zoom.us"),
       k: app("Kitty"),
       0: app("Obsidian"), // letter o not working
-      f: app("Finder"),
+      e: app("Finder"),
       // l: app("Linear"),
-      x: app("wpsoffice"),
+      x: app("Microsoft Excel"),
       // w: app("Shottr"), 
-      r: app("Foxit PDF Reader"),
+      f: app("Foxit PDF Reader"),
+      r: app("Reminders"),
     },
   }),
 ];
