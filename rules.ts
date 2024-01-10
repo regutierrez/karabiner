@@ -49,7 +49,7 @@ const rules: KarabinerRules[] = [
       v: app("Visual Studio Code"),
       // d: app("Discord"),
       s: app("Slack"),
-      m: app("Mail"),
+      m: app("Messages"),
       // j: app("Pycharm Community Edition"),
       c: app("Calendar"),
       // n: app("Notion"),
