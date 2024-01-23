@@ -305,13 +305,37 @@
               {
                 "to": [
                   {
+                    "shell_command": "open -a 'Firefox.app'"
+                  }
+                ],
+                "description": "Open -a 'Firefox.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "f",
+                  "modifiers": {
+                    "mandatory": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_q",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
                     "shell_command": "open -a 'Foxit PDF Reader.app'"
                   }
                 ],
                 "description": "Open -a 'Foxit PDF Reader.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "f",
+                  "key_code": "p",
                   "modifiers": {
                     "mandatory": [
                       "any"
