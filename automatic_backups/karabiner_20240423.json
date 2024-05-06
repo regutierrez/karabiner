@@ -191,30 +191,6 @@
                 "description": "Open -a 'Messages.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "i",
-                  "modifiers": {
-                    "mandatory": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_q",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open -a 'Mail.app'"
-                  }
-                ],
-                "description": "Open -a 'Mail.app'",
-                "type": "basic",
-                "from": {
                   "key_code": "m",
                   "modifiers": {
                     "mandatory": [
@@ -240,30 +216,6 @@
                 "type": "basic",
                 "from": {
                   "key_code": "c",
-                  "modifiers": {
-                    "mandatory": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_q",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open -a 'Time Out.app'"
-                  }
-                ],
-                "description": "Open -a 'Time Out.app'",
-                "type": "basic",
-                "from": {
-                  "key_code": "t",
                   "modifiers": {
                     "mandatory": [
                       "any"
@@ -336,30 +288,6 @@
                 "type": "basic",
                 "from": {
                   "key_code": "x",
-                  "modifiers": {
-                    "mandatory": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_q",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open -a 'Parallels Desktop.app'"
-                  }
-                ],
-                "description": "Open -a 'Parallels Desktop.app'",
-                "type": "basic",
-                "from": {
-                  "key_code": "w",
                   "modifiers": {
                     "mandatory": [
                       "any"
