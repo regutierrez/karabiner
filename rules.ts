@@ -54,7 +54,6 @@ const rules: KarabinerRules[] = [
       // j: app("Pycharm Community Edition"),
       c: app("Calendar"),
       // n: app("Notion"),
-      t: app("Time Out"),
       // z: app("zoom.us"),
       k: app("Kitty"),
       0: app("Obsidian"), // letter o not working
