@@ -200,30 +200,6 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open -a 'Discord.app'",
-                                "from": {
-                                    "key_code": "d",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Discord.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "hyper_sublayer_q",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
                                 "description": "Open -a 'Messages.app'",
                                 "from": {
                                     "key_code": "m",
