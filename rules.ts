@@ -55,7 +55,7 @@ const rules: KarabinerRules[] = [
       m: app("Mail"), 
       // j: app("Pycharm Community Edition"),
       c: app("Calendar"),
-      // n: app("Notion"),
+      n: app("Notion"),
       z: app("zoom.us"),
       t: app("WezTerm"),
       0: app("Obsidian"), // letter o not working
