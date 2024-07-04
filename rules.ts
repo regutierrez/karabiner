@@ -45,18 +45,19 @@ const rules: KarabinerRules[] = [
   ...createHyperSubLayers({
     // q = "For ease of use
     q: {
+      a: app("Android Studio"),
       g: app("Arc"),
       v: app("Visual Studio Code"),
       f: app("Finder"),
       d: app("Discord"),
-      // s: app("Slack"),
-      m: app("Messages"),
-      // m: app("Mail"),
+      s: app("Slack"),
+      // m: app("Messages"),
+      m: app("Mail"), 
       // j: app("Pycharm Community Edition"),
       c: app("Calendar"),
       // n: app("Notion"),
-      // z: app("zoom.us"),
-      t: app("Alacritty"),
+      z: app("zoom.us"),
+      t: app("WezTerm"),
       0: app("Obsidian"), // letter o not working
       b: app("Bitwarden"),
       // l: app("Linear"),
